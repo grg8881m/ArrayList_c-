@@ -1,0 +1,23 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+					
+public class Program
+{
+	public static void Main()
+	{
+		ArrayList listaJugadores = new ArrayList();
+		
+		listaJugadores.Add("Giovanni");
+		listaJugadores.Add("Jhon");
+		listaJugadores.Add("Josheph");
+		listaJugadores.Add("Andres");
+		listaJugadores.Add("Jose");
+		
+		foreach (String nombres in listaJugadores){
+			Console.WriteLine(nombres);
+				 
+				 }
+	}
+}
